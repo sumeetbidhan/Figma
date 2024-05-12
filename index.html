@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name - Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272020;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fdfdfd;
+    transition: color 0.3s ease;
+    margin-left: 30%;
+  }
+
+  .name:hover {
+    color: #f66053;
+    cursor: default;
+  }
+
+  .github-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+
+  .github-button:hover {
+    background-color: rgb(236, 235, 232);
+    color: gray;
+    transform: scale(1.5);
+    transition: 0.8s ease;
+  }
+
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .image {
+    margin: 10px;
+  }
+
+  .image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Added border-color transition */
+  border: 2px solid transparent; /* Initially set border color to transparent */
+}
+
+.image img:hover {
+  transform: scale(1.05);
+  border-color: #8ac4d0; /* Change border color to light blue on hover */
+}
+  /* Styling for anchor tags */
+  a {
+    color: white; /* Set the default link color to white */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+
+  a:hover {
+    color: #8ac4d0; /* Change color to light blue on hover */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="name">Sumeet Bidhan's Projects</div>
+  <a href="https://github.com/sumeetbidhan/"target="_blank"   class="github-button">GitHub</a>
+</div>
+
+<div class="image-gallery">
+  <div class="image">
+    <a href="https://www.figma.com/proto/4ztA3n3XtwNRwo5ckJJqCU/Flavorful?type=design&node-id=1-571&t=m2VJOItM5fLoIiIO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A571" target="_blank"><img src="./2.png" alt="Figma Page 1"></a>
+    <p>Prototype: <a href="https://www.figma.com/proto/4ztA3n3XtwNRwo5ckJJqCU/Flavorful?type=design&node-id=1-571&t=m2VJOItM5fLoIiIO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A571" target="_blank">Flavorful</a></p>
+  </div>
+  <div class="image">
+    <a href="https://www.figma.com/proto/3er6vZnKGHP1bkpst9uNu0/GenAIStack?type=design&t=jIHSqsIRmc3K6VeS-0&scaling=min-zoom&page-id=0%3A1&node-id=0-305" target="_blank"><img src="./1.png" alt="Figma Page 2"></a>
+    <p>Prototype: <a href="https://www.figma.com/proto/3er6vZnKGHP1bkpst9uNu0/GenAIStack?type=design&t=jIHSqsIRmc3K6VeS-0&scaling=min-zoom&page-id=0%3A1&node-id=0-305" target="_blank">GenAIStack</a></p>
+  </div>
+  <div class="image">
+    <a href="https://www.figma.com/proto/K6Lk9ZYBDsxRKM9Ihl7bAE/orb-loading-screen?type=design&t=jIHSqsIRmc3K6VeS-0&scaling=scale-down&page-id=0%3A1&node-id=7-223" target="_blank"><img src="./3.jpg" alt="Figma Page 2"></a>
+    <p>Prototype: <a href="https://www.figma.com/proto/K6Lk9ZYBDsxRKM9Ihl7bAE/orb-loading-screen?type=design&t=jIHSqsIRmc3K6VeS-0&scaling=scale-down&page-id=0%3A1&node-id=7-223" target="_blank">ORB</a></p>
+  </div>
+  <div class="image">
+    <a href="https://sumeetbidhan.netlify.app/" target="_blank"><img src="./4.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/sumeetbidhanreact" target="_blank">PortfolioReact</a></p>
+  </div>
+  <div class="image">
+    <a href="https://blogharmony.netlify.app/" target="_blank"><img src="./5.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/MyBlog" target="_blank">BlogHarmony</a></p>
+  </div>
+  <div class="image">
+    <a href="https://sumeetbidhan.github.io/ToDoList/" target="_blank"><img src="./6.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/ToDoList" target="_blank">ToDoList</a></p>
+  </div>
+  <div class="image">
+    <a href="https://portfolio1sum.netlify.app" target="_blank"><img src="./7.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/Accordion" target="_blank">Portfolio</a></p>
+  </div>
+  <div class="image">
+    <a href="https://sumaccordion.netlify.app/" target="_blank"><img src="./8.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/Accordion" target="_blank">Accordion</a></p>
+  </div>
+  <div class="image">
+    <a href="https://summodal.netlify.app/" target="_blank"><img src="./9.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/Modal" target="_blank">Modal</a></p>
+  </div>
+  <div class="image">
+    <a href="https://sumeetbidhan.github.io/HireQuotient/"target="_blank"><img src="./10.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/HireQuotient" target="_blank">LandingPage</a></p>
+  </div>
+  <div class="image">
+    <a href="https://sumeetbidhan.github.io/Quote-Generator/"target="_blank"><img src="./11.png" alt="Figma Page 2"></a>
+    <p>GitHub: <a href="https://github.com/sumeetbidhan/Quote-Generator" target="_blank">Quote Generator</a></p>
+  </div>
+  <!-- Add more image divs as needed -->
+</div>
+
+</body>
+</html>
